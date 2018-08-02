@@ -1,9 +1,9 @@
 {
   "projects": {
-    "caliber-config": "https://github.com/deanbitar/caliber-config",
-    "caliber-email-service": "https://github.com/deanbitar/caliber-email-service",
-    "caliber-eureka": "https://github.com/deanbitar/caliber-eureka",
-    "caliber-zuul": "https://github.com/deanbitar/caliber-zuul",
-    "caliber": "https://github.com/deanbitar/caliber"
+    "caliber-config": "https://github.com/1806Java-Trevin/caliber-config",
+    "caliber-email-service": "https://github.com/1806Java-Trevin/caliber-email-service",
+    "caliber-eureka": "https://github.com/1806Java-Trevin/caliber-eureka",
+    "caliber-zuul": "https://github.com/1806Java-Trevin/caliber-zuul",
+    "caliber": "https://github.com/1806Java-Trevin/caliber"
   }
 }
