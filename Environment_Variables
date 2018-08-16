@@ -1,0 +1,29 @@
+CALIBER_DB_URL=jdbc:oracle:thin:@xxxxxxxxx:orcl
+CALIBER_DB_USER= [database username]
+CALIBER_DB_PASS=[database password]
+
+CALIBER_CONFIG_REPO_URL= [caliber config github url]
+CALIBER_CONFIG_SERVER_URL= http://localhost:8888
+CALIBER_EUREKA_SERVER_URL= http://localhost:8761/eureka
+
+CALIBER_EMAIL_IP_ADDRESS=localhost
+CALIBER_ZUUL_IP_ADDRESS=localhost
+
+Required variables, by microservice:
+config:
+CALIBER_CONFIG_REPO_URL
+eureka:
+CALIBER_CONFIG_SERVER_URL
+email:
+CALIBER_CONFIG_SERVER_URL
+CALIBER_EUREKA_SERVER_URL
+CALIBER_EMAIL_IP_ADDRESS
+CALIBER_DB_URL
+CALIBER_DB_USER
+CALIBER_DB_PASS
+CALIBER_EMAIL_PASS:  [password for sender account]
+CALIBER_EMAIL_USERNAME: [password for sender username]
+zuul:
+CALIBER_CONFIG_SERVER_URL
+CALIBER_EUREKA_SERVER_URL
+CALIBER_ZUUL_IP_ADDRESS
